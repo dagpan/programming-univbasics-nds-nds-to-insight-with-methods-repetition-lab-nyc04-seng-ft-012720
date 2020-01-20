@@ -44,11 +44,11 @@ def list_of_directors(source)
   director_index = 0
   while director_index < source.size do
     director = source[director_index][:name]
-    director_list[director[:name]] = gross_for_director(director)
+    director_list[director_index] = director
     director_index += 1
-
-
-
+  end
+  director_list
+  pp director_list
 end
 
 
