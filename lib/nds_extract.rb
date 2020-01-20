@@ -37,7 +37,6 @@ def list_of_directors(source)
     director_index += 1
   end
   director_list
-  pp director_list
 end
 
 
