@@ -40,8 +40,12 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-
-
+  director_list = []
+  director_index = 0
+  while director_index < source.size do
+    director = source[director_index][:name]
+    director_list[director[:name]] = gross_for_director(director)
+    director_index += 1
 
 
 
