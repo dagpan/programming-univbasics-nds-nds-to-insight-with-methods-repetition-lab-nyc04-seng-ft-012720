@@ -6,6 +6,7 @@ require_relative './directors_database'
 
 
 directors_database
+pp directors_database
 
 def directors_totals(source)
   result = {}
