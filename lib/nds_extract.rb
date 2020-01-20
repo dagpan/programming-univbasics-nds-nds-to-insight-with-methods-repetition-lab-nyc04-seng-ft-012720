@@ -54,7 +54,9 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   grand_total = 0
- 
+  return_hash = directors_totals(source)
+  directors = list_of_directors(source)
+  
  
   
 
